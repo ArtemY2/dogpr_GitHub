@@ -1,0 +1,239 @@
+/* Основные стили админ-панели */
+.admin-container {
+    max-width: 1200px;
+    margin: 90px auto 30px;
+    padding: 20px;
+}
+
+/* Заголовки секций */
+.section {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #32c3f3;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #edf2f7;
+}
+
+/* Формы */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #4682b4;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* Для всех полей ввода внутри формы */
+.form-group input[type="text"], 
+.form-group input[type="tel"], 
+.form-group input[type="email"], 
+.form-group select, 
+.form-group textarea {
+    width: 100%; /* Поля будут занимать всю доступную ширину */
+    padding: 12px 15px; /* Равномерный внутренний отступ */
+    border: 2px solid #e2e8f0; /* Тонкая серая граница */
+    border-radius: 10px; /* Закругленные углы */
+    font-size: 1em; /* Обычный размер шрифта */
+    transition: all 0.3s ease; /* Плавное изменение при взаимодействии */
+    box-sizing: border-box; /* Учитывать отступы и границы в расчете ширины */
+}
+
+/* Для textarea можно дополнительно ограничить высоту, если нужно */
+.form-group textarea {
+    min-height: 100px; /* Минимальная высота для textarea */
+    resize: vertical; /* Разрешить изменение высоты вручную */
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #32c3f3;
+    box-shadow: 0 0 0 3px rgba(50, 195, 243, 0.1);
+    outline: none;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+.pet-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+}
+
+.pet-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pet-info {
+    padding: 20px;
+}
+
+.pet-info h3 {
+    color: #2d3748;
+    margin: 0 0 10px;
+    font-size: 1.3em;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 1em;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #32c3f3, #4682b4);
+    color: white;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #48c774, #00d1b2);
+    color: white;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ff6b6b, #ff4757);
+    color: white;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Уведомления */
+.alert {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.alert.success {
+    background: rgba(72, 199, 116, 0.1);
+    color: #2f855a;
+    border-left: 4px solid #48c774;
+}
+
+.alert.error {
+    background: rgba(255, 107, 107, 0.1);
+    color: #c53030;
+    border-left: 4px solid #ff6b6b;
+}
+
+/* Загрузка файлов */
+.file-upload {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload-label {
+    display: block;
+    padding: 15px;
+    background: #f7fafc;
+    border: 2px dashed #cbd5e0;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.file-upload-label:hover {
+    border-color: #32c3f3;
+    background: rgba(50, 195, 243, 0.05);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .admin-container {
+        padding: 15px;
+        margin-top: 70px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+
+    .btn-group {
+        flex-direction: column;
+    }
+
+}
+
+/* Модерация */
+.moderation-form {
+    margin-top: 15px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+}
+
+.moderation-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stat-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #32c3f3;
+    margin: 10px 0;
+}
+
+.stat-label {
+    color: #718096;
+    font-size: 0.9em;
+}

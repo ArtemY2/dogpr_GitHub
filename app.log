@@ -1,0 +1,137 @@
+2024-11-11 09:04:07,142 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 09:21:30,500 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 09:23:30,615 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-11 09:23:30,616 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-11 09:23:33,158 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 09:23:36,703 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-11 09:23:36,704 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-11 09:25:03,591 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 09:25:07,623 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-11 09:25:07,624 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-11 09:25:32,869 [INFO] 127.0.0.1 - - [11/Nov/2024 09:25:32] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-11 09:25:32,910 [INFO] 127.0.0.1 - - [11/Nov/2024 09:25:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-11 09:25:45,435 [INFO] 127.0.0.1 - - [11/Nov/2024 09:25:45] "[33mPOST /api/predict HTTP/1.1[0m" 404 -
+2024-11-11 09:29:48,079 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 09:34:09,770 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-11 09:34:09,770 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-11 09:34:24,617 [INFO] 127.0.0.1 - - [11/Nov/2024 09:34:24] "[33mPOST /api/predict HTTP/1.1[0m" 404 -
+2024-11-11 09:34:40,483 [INFO] 127.0.0.1 - - [11/Nov/2024 09:34:40] "[33mGET /api/predict HTTP/1.1[0m" 404 -
+2024-11-11 09:34:40,513 [INFO] 127.0.0.1 - - [11/Nov/2024 09:34:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-11 09:42:29,228 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:06:36,514 [INFO] Loading model from: C:\xampp\htdocs\models\model.tflite
+2024-11-11 14:09:30,011 [INFO] Loading model from: C:\xampp\htdocs\models\model.tflite
+2024-11-11 14:24:26,351 [INFO] Loading model from: C:\xampp\htdocs\models\model.tflite
+2024-11-11 14:25:09,349 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:26:35,110 [INFO] Loading model from: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:27:16,256 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:29:27,465 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:29:34,812 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:29:54,393 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:30:33,343 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:31:18,345 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:32:01,147 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:33:51,073 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:34:34,439 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 14:35:17,675 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 15:25:40,980 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-11 15:28:47,122 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-14 09:32:14,351 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite
+2024-11-14 09:33:06,475 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:33:06,477 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:33:06,530 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-14 09:33:06,530 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-14 09:33:06,532 [INFO]  * Restarting with stat
+2024-11-14 09:33:06,998 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:33:06,999 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:33:07,014 [WARNING]  * Debugger is active!
+2024-11-14 09:33:07,019 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:33:19,229 [INFO] 127.0.0.1 - - [14/Nov/2024 09:33:19] "GET /test HTTP/1.1" 200 -
+2024-11-14 09:33:19,474 [INFO] 127.0.0.1 - - [14/Nov/2024 09:33:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-14 09:33:47,349 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:33:47,402 [INFO]  * Restarting with stat
+2024-11-14 09:33:47,872 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:33:47,873 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:33:47,891 [WARNING]  * Debugger is active!
+2024-11-14 09:33:47,897 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:33:55,225 [INFO] 127.0.0.1 - - [14/Nov/2024 09:33:55] "GET /test HTTP/1.1" 200 -
+2024-11-14 09:33:55,489 [INFO] 127.0.0.1 - - [14/Nov/2024 09:33:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-14 09:34:11,572 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:34:11,624 [INFO]  * Restarting with stat
+2024-11-14 09:34:12,023 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:34:12,024 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:34:12,036 [WARNING]  * Debugger is active!
+2024-11-14 09:34:12,040 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:34:14,135 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:34:14,190 [INFO]  * Restarting with stat
+2024-11-14 09:34:14,655 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:34:14,656 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:34:14,669 [WARNING]  * Debugger is active!
+2024-11-14 09:34:14,674 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:34:17,817 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:34:17,878 [INFO]  * Restarting with stat
+2024-11-14 09:34:18,323 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model/model_inception.tflite'.
+2024-11-14 09:34:18,325 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:34:18,341 [WARNING]  * Debugger is active!
+2024-11-14 09:34:18,345 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:34:23,536 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:34:23,596 [INFO]  * Restarting with stat
+2024-11-14 09:34:24,033 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model\model_inception.tflite'.
+2024-11-14 09:34:24,035 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:34:24,048 [WARNING]  * Debugger is active!
+2024-11-14 09:34:24,052 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:34:30,256 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:34:30,312 [INFO]  * Restarting with stat
+2024-11-14 09:38:38,594 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:38:38,596 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:38:38,619 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-14 09:38:38,619 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-14 09:38:38,621 [INFO]  * Restarting with stat
+2024-11-14 09:38:39,013 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:38:39,015 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:38:39,027 [WARNING]  * Debugger is active!
+2024-11-14 09:38:39,031 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:38:44,195 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:38:44,252 [INFO]  * Restarting with stat
+2024-11-14 09:39:21,180 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:39:21,182 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:39:21,207 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-14 09:39:21,208 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-14 09:39:21,209 [INFO]  * Restarting with stat
+2024-11-14 09:39:21,586 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:39:21,588 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:39:21,601 [WARNING]  * Debugger is active!
+2024-11-14 09:39:21,605 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:39:30,933 [INFO] 127.0.0.1 - - [14/Nov/2024 09:39:30] "GET /test HTTP/1.1" 200 -
+2024-11-14 09:39:31,196 [INFO] 127.0.0.1 - - [14/Nov/2024 09:39:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-14 09:40:21,119 [INFO]  * Detected change in 'C:\\xampp\\htdocs\\app.py', reloading
+2024-11-14 09:40:21,175 [INFO]  * Restarting with stat
+2024-11-14 09:41:48,618 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:41:48,619 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:41:48,644 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-14 09:41:48,645 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-14 09:41:48,647 [INFO]  * Restarting with stat
+2024-11-14 09:41:49,070 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:41:49,071 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:41:49,085 [WARNING]  * Debugger is active!
+2024-11-14 09:41:49,089 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 09:42:02,820 [INFO] 127.0.0.1 - - [14/Nov/2024 09:42:02] "GET /test HTTP/1.1" 200 -
+2024-11-14 09:42:03,068 [INFO] 127.0.0.1 - - [14/Nov/2024 09:42:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-14 09:42:34,767 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:42:34,769 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:42:34,791 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2024-11-14 09:42:34,792 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-14 09:42:34,793 [INFO]  * Restarting with stat
+2024-11-14 09:42:35,194 [ERROR] ¬°¬ê¬Ú¬Ò¬Ü¬Ñ ¬Ù¬Ñ¬Ô¬â¬å¬Ù¬Ü¬Ú ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: Could not open 'C:\xampp\htdocs\model_inception.tflite'.
+2024-11-14 09:42:35,195 [INFO] ¬©¬Ñ¬á¬å¬ã¬Ü ¬ã¬Ö¬â¬Ó¬Ö¬â¬Ñ ¬ß¬Ñ ¬á¬à¬â¬ä¬å 5001...
+2024-11-14 09:42:35,208 [WARNING]  * Debugger is active!
+2024-11-14 09:42:35,212 [INFO]  * Debugger PIN: 467-642-847
+2024-11-14 10:05:18,899 [INFO] ¬±¬â¬à¬Ó¬Ö¬â¬Ü¬Ñ ¬ß¬Ñ¬Ý¬Ú¬é¬Ú¬ñ ¬Þ¬à¬Õ¬Ö¬Ý¬Ú: C:\xampp\htdocs\models\model_inception.tflite

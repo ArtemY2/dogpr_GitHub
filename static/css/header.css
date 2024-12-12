@@ -1,0 +1,268 @@
+/* Основные стили шапки */
+.header {
+    background: linear-gradient(135deg, #32c3f3, #4682b4);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Стили логотипа */
+.logo-link {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-icon {
+    font-size: 3em;
+    animation: bounce 2s infinite;
+}
+
+.site-title {
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* Стили навигации */
+.nav-menu {
+    position: relative;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Стили для кнопки входа админа */
+.admin-login-link {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.admin-login-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Стили для админ-панели после входа */
+.nav-link.admin-panel {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.nav-link.admin-logout {
+    color: #ff6b6b;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+
+.nav-link.admin-logout:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #ff4757;
+}
+
+/* Выпадающее меню для ПК версии */
+@media screen and (min-width: 769px) {
+    .has-dropdown .dropdown {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: white;
+        min-width: 250px;
+        border-radius: 12px;
+        box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        z-index: 1001;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .has-dropdown:hover .dropdown {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .dropdown li a {
+        color: #333;
+        padding: 12px 24px;
+        display: block;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .dropdown li a:hover {
+        background: linear-gradient(135deg, #32c3f3, #4682b4);
+        color: white;
+        padding-left: 30px;
+    }
+}
+
+/* Кнопка мобильного меню */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Адаптивный дизайн для мобильных устройств */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 60px;
+    }
+
+    .header-content {
+        padding: 0 20px;
+    }
+
+    .site-title {
+        font-size: 1.4em;
+    }
+
+    .logo-icon {
+        font-size: 2em;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(135deg, #32c3f3, #4682b4);
+        padding: 20px;
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    .dropdown {
+        position: static;
+        display: none;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 10px;
+        box-shadow: none;
+    }
+
+    .dropdown.active {
+        display: block;
+    }
+
+    .dropdown li a {
+        color: white;
+        text-align: center;
+    }
+
+    .dropdown li a:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    /* Мобильные стили для админ-кнопок */
+    .admin-login-link,
+    .nav-link.admin-panel,
+    .nav-link.admin-logout {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        border-radius: 6px;
+    }
+}
+
+/* Анимации */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+/* Стили для выпадающего меню с иконками */
+.nav-link .icon {
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+/* Стили для кнопки потерянных собак */
+.nav-menu .nav-link[href*="lost"] {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu .nav-link[href*="lost"]:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Стили для выпадающего меню */
+.dropdown li a .icon {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+}

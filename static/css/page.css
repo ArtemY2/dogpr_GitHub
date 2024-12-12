@@ -1,0 +1,185 @@
+/* Основной контейнер */
+.page-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Заголовок породы */
+.breed-header {
+    text-align: center;
+    margin: 40px 0;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #32c3f3, #4682b4);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(50, 195, 243, 0.2);
+}
+
+.breed-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Секция с изображением */
+.breed-image-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.breed-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.breed-image:hover {
+    transform: scale(1.02);
+}
+
+/* Информационные секции */
+.info-section {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.info-section h2 {
+    color: #32c3f3;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #edf2f7;
+    font-weight: 600;
+}
+
+.info-content {
+    color: #2d3748;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+/* Карточки с характеристиками */
+.characteristics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.characteristic-card {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.characteristic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.characteristic-card h3 {
+    color: #4682b4;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.characteristic-card p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Разделитель секций */
+.section-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, #32c3f3, transparent);
+    margin: 40px 0;
+    opacity: 0.2;
+}
+
+/* Адаптивность */
+@media screen and (max-width: 768px) {
+    .page-container {
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+
+    .breed-header {
+        padding: 30px 15px;
+        margin: 20px 0;
+    }
+
+    .breed-header h1 {
+        font-size: 2em;
+    }
+
+    .info-section {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .info-section h2 {
+        font-size: 1.5em;
+    }
+
+    .info-content {
+        font-size: 1em;
+    }
+
+    .characteristics {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .breed-header h1 {
+        font-size: 1.8em;
+    }
+
+    .breed-image-section {
+        margin: 20px 0;
+    }
+
+    .info-section {
+        padding: 15px;
+    }
+
+    .info-section h2 {
+        font-size: 1.3em;
+        margin-bottom: 15px;
+    }
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info-section {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.info-section:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.info-section:nth-child(3) {
+    animation-delay: 0.4s;
+}

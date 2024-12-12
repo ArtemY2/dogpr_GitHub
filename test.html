@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Test</title>
+</head>
+<body>
+    <h1>Server Test</h1>
+    <div id="result"></div>
+
+    <script>
+        async function testServer() {
+            const resultDiv = document.getElementById('result');
+            try {
+                const response = await fetch('http://localhost:5001/test', {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+                resultDiv.innerHTML = `
+                    <p style="color: green">
+                        Server response: ${JSON.stringify(data, null, 2)}
+                    </p>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <p style="color: red">
+                        Error: ${error.message}
+                    </p>
+                `;
+            }
+        }
+
+        // Запускаем тест при загрузке страницы
+        testServer();
+    </script>
+</body>
+</html>

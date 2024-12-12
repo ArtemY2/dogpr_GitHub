@@ -1,0 +1,39 @@
+html
+│  ├─bin
+│  ├─include
+│  └─lib
+├─down_img
+│  ├─01.jpg
+│  ├─02.jpg
+│  └─...
+├─models
+│  ├─best_model_vgg16_pca.keras
+│  ├─model.tflite
+│  └─...
+├─page
+│  ├─01chih.php
+│  ├─02shit.php
+│  └─...
+├─static
+│  ├─css
+│  │  ├─footer.css
+│  │  ├─header.css
+│  │  ├─page.css
+│  │  └─styles.css
+│  ├─js
+│  │  └─script.js
+│  └─uploads
+│      └─img.jpg...
+├─templates
+│  ├─footer.php
+│  └─header.php
+├─app.py
+├─config.php
+├─converter_model.py
+├─index.php
+├─pytightconfig.json
+├─pyvenv.cfg
+├─requirements.txt
+├─save_model.py
+├─server_port.txt
+└─test.html
